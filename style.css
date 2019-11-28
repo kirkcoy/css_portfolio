@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#container {
+    max-width: 920px;
+    height: 976px;
+    background-color: black;
+    margin: auto;
+    overflow: hidden;
+}
+
+    div#container div.header {
+        height: 60px;
+        background-image: linear-gradient(to bottom, #f1f1f1, #ffffff);
+    }
+
+        div#container div.header h1 {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 5px;
+            padding-left: 30px;
+            padding-right: 360px;
+            font-family: "comic sans ms";
+            font-weight: normal;
+        }
+        
+        div#container div.header h3 {
+            display: inline-block;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    div#container div.main {
+        height: 856px;
+        background-image: radial-gradient(#84727a, #1b090f )
+    }
+
+        div#container div.main div.upper_body img{
+            width: 380px;
+            height: 252px;
+            border: solid 5px #c0c0c0;
+            display: inline-block;
+            vertical-align: top;
+            margin: 20px;
+        }
+
+        div#container div.main div.upper_body div.about{
+            width: 460px;
+            height: 260px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+            div#container div.main div.upper_body div.about h3{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                height: 30px;
+                background-image: linear-gradient(#b0b0b4, #888794, #b0b0b4);
+                padding: 10px 0px 0px 10px;
+            }
+            
+            div#container div.main div.upper_body div.about div.description{
+                height: 210px;
+                background-color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px 8px 0px 10px;
+            }
+
+                div#container div.main div.upper_body div.about div.description p{
+                    padding-bottom: 10px;
+                    font-size: 11.5pt;
+                }
+
+                div#container div.main div.upper_body div.about div.description a {
+                    font-size: 11.5pt;
+                    color: black;
+                }
+
+            div#container div.main div.lower_body div.sub_lower_body {
+                width: 275px;
+                height: 525px;
+                background-image: linear-gradient(to right, #ffffff, #dbccd9);
+                display: inline-block;
+                vertical-align: top;
+                margin-left: 20px;
+            }
+
+                div#container div.main div.lower_body div.sub_lower_body h3 {
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    height: 30px;
+                    padding: 10px 0px 0px 10px;
+                    background-image: linear-gradient(#b0b0b4, #888794, #b0b0b4);
+                }
+
+                div#container div.main div.lower_body div.sub_lower_body h4 {
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    height: 30px;
+                    padding: 10px 0px 0px 10px;
+                    background-image: linear-gradient(#b0b0b4, #888794, #b0b0b4);
+                }
+
+                div#container div.main div.lower_body div.sub_lower_body img {
+                   height: 144px;
+                   width: 275px;
+                }
+
+                div#container div.main div.lower_body div.sub_lower_body p {
+                    height: 140px;
+                    width: 258px;
+                    font-size: 10pt;
+                    font-family: Arial, Helvetica, sans-serif;
+                    padding: 5px 8px 0 8px;
+                    text-align: justify;
+                }
+
+                    div#container div.main div.lower_body div.sub_lower_body ul li {
+                        display: inline-block;
+                        vertical-align: top;
+                    }
+                
+                        div#container div.main div.lower_body div.sub_lower_body ul li img{
+                            height: 35px;
+                            width: 35px;
+                            padding: 13px 0 0 13px;
+                        }
+            
+                div#container div.main div.lower_body div.sub_lower_body div.center {
+                    text-align: center;
+                }
+                
+                    div#container div.main div.lower_body div.sub_lower_body div.center a {
+                        display: inline-block;
+                        background-color: #3f7d61;
+                        color: white;
+                        text-decoration: none;
+                        padding: 5px;
+                        margin-top: 5px;
+                        font-family: sans-serif;
+                        font-size: 10pt;
+                        font-weight: bold;
+                        border-radius: 8px;
+                        border-color: #3f7d61;
+                        box-shadow: 3px 3px 3px #8c8c8c;
+                    }
+
+    div#container div.footer {
+        height: 60px;
+        background-image: linear-gradient(to bottom, #ffffff, #f1f1f1);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+        div#container div.footer p {
+            padding: 5px 0 10px;
+        }
+
+                div#container div.footer ul li {
+                    display: inline-block;
+                    vertical-align: top;
+                }
+
+                    div#container div.footer ul li img {
+                        height: 20px;
+                        width: 20px;
+                    }
+
+                    div#container div.footer ul li a {
+                        font-style: italic;
+                        color: black;
+                    }
